@@ -1,2 +1,3 @@
 # SGE_BLOC2
-![img.png](img.png)
+![img.jpg](connect.py creat)
+
