@@ -62,6 +62,18 @@ Per realitzar aquesta inserció a la taula cal també fer canvis a l'arxiu main 
 funció cr.create_reg(). El codi fa una trucada a create_reg dins del codi de l'arxiu create_registre.py, comentat 
 anteriorment.
 
+### MÈTODES PER EXTREURE INFORMACIÓ
+
+![result del read_registre.png](result del read_registre.png)
+
+A la imatge veiem com primer s'estableix una connexió amb amb la base de dades mitjançant
+_conn_ i després s'inicialitza _cursor_ per poder executar consultes SQL. Es dona l'ordre de 
+_sql_read_ (llegir) totes (*) les dades de la taula "clientes". La part que més ens interessa 
+és la següent, amb cursor.fetchall() (a diferència de _fetchone_ q només recupera una fila)
+es recuperen totes les files retornades per la consulta i amb print es mostren els resultats
+per pantalla.
+
+
 
 
 
