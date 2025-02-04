@@ -66,14 +66,19 @@ anteriorment.
 
 ![result del read_registre.png](result del read_registre.png)
 
-A la imatge veiem com primer s'estableix una connexió amb amb la base de dades mitjançant
+A la imatge veiem com primer s'estableix una connexió amb la base de dades mitjançant
 _conn_ i després s'inicialitza _cursor_ per poder executar consultes SQL. Es dona l'ordre de 
 _sql_read_ (llegir) totes (*) les dades de la taula "clientes". La part que més ens interessa 
 és la següent, amb cursor.fetchall() (a diferència de _fetchone_ q només recupera una fila)
 es recuperen totes les files retornades per la consulta i amb print es mostren els resultats
 per pantalla.
 
+![result d’un registre del read_registre.jpg](result d’un registre del read_registre.jpg)
 
+Ara veiem com hem fet una consulta específica a l'índex 4, que correspon al id_cliente 5 (Alba).
+A considerar que és índex 4 perquè comença a comptar des de 0.
 
+![result d’un camp d’un registre del read_registre.jpg](result d’un camp d’un registre del read_registre.jpg)
 
-
+Ara es mostra la informació del telèfon de Alba que correspon a la fila de la base de dades índex 4
+i dins d'aquesta fila a la columna 2, on estan guardats els telèfons. És un Array d'un array.
