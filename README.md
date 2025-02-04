@@ -82,3 +82,7 @@ A considerar que és índex 4 perquè comença a comptar des de 0.
 
 Ara es mostra la informació del telèfon de Alba que correspon a la fila de la base de dades índex 4
 i dins d'aquesta fila a la columna 2, on estan guardats els telèfons. És un Array d'un array.
+
+![Intents mini exercicis LIST.jpg](Intents mini exercicis LIST.jpg)
+
+Es mostra el resultat de diverses consultes.
