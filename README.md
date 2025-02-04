@@ -86,3 +86,13 @@ i dins d'aquesta fila a la columna 2, on estan guardats els telèfons. És un Ar
 ![Intents mini exercicis LIST.jpg](Intents mini exercicis LIST.jpg)
 
 Es mostra el resultat de diverses consultes.
+
+![extreuInfoDeColumna.jpg](extreuInfoDeColumna.jpg)
+
+En aquesta cerca, amb el bucle for es fa una iteració amb la que es recorre totes les columnes
+de la base de dades i gràcies a la qual (especialment gràcies al salt de línia \n) es pot mostrar 
+per pantalla amb un format on es veuen facilment les dades de cada persona.
+
+Al codi veiem com primer es truca per executar la funció de l'arxiu _read_registre_
+i després l'executa (rr.read_reg()).
+
