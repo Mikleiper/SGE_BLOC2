@@ -96,3 +96,22 @@ per pantalla amb un format on es veuen facilment les dades de cada persona.
 Al codi veiem com primer es truca per executar la funció de l'arxiu _read_registre_
 i després l'executa (rr.read_reg()).
 
+### EDITAR INFORMACIÓ
+
+després de canviar el codi de main per a que truqui al codi de update
+
+![CridaUpdate.jpg](CridaUpdate.jpg)
+
+Ara farem canvis en les tres primeres files
+
+![AntesUpdate.jpg](AntesUpdate.jpg)
+
+Primer farem canvis en els telèfons amb aquest codi com exemple
+
+![updateExemple.jpg](updateExemple.jpg)
+
+la base de dades quedarà així després de canviar el telèfon en tres registres
+
+![tlfs abans.jpg](tlfs abans.jpg)
+
+ara farem 
