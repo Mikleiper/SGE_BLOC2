@@ -114,4 +114,26 @@ la base de dades quedarà així després de canviar el telèfon en tres registre
 
 ![tlfs abans.jpg](tlfs abans.jpg)
 
-ara farem 
+ara farem els canvis en els noms dels tres registres on previament em canviat el telèfon.
+Ho farem amb le següent codi
+
+![updateExemple.png](updateExemple.png)
+
+finalment quedarà així:
+
+![TaulaDesprés.jpg](TaulaDesprés.jpg)
+
+### ESBORRAR INFORMACIÓ
+
+Ara amb la següent modificació en el codi main 
+
+![maindelete.jpg](maindelete.jpg)
+
+i la creació del codi delete
+
+![codiDelete.jpg](codiDelete.jpg)
+
+Esborrarem els mateixos tres registres que havíem editat al pas anterior, quedant la base 
+de dades així després d'esborrar-ho:
+
+![despresDelete.jpg](despresDelete.jpg)
