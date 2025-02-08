@@ -2,7 +2,7 @@
 
 ### **CONNEXIÓ A BASE DE DADES**
 
-![connexió](connectpy executat.jpg)
+![connectpyExecutat.jpg](connectpyExecutat.jpg)
 
 S'està realitzant una connexió a una base de dades PostgreSQL a través d'una llibreria psycopg2. A dins del codi es pot veure com a través de la funció connection_db() s'estableix una connexió amb la base de dades the_bear utilitzant els paràmetres proporcionats. Es retorna l'objecte conn que representa la connexió a PostgreSQL. El print(conn) mostra com la connexió s'ha establert correctament (closed: 0) i com es tanca satisfàctoriament (closed: 1).
 
@@ -64,7 +64,7 @@ anteriorment.
 
 ### MÈTODES PER EXTREURE INFORMACIÓ
 
-![result del read_registre.png](result del read_registre.png)
+![result_del_read_registre.png](result_del_read_registre.png)
 
 A la imatge veiem com primer s'estableix una connexió amb la base de dades mitjançant
 _conn_ i després s'inicialitza _cursor_ per poder executar consultes SQL. Es dona l'ordre de 
@@ -73,17 +73,17 @@ _sql_read_ (llegir) totes (*) les dades de la taula "clientes". La part que més
 es recuperen totes les files retornades per la consulta i amb print es mostren els resultats
 per pantalla.
 
-![result d’un registre del read_registre.jpg](result d’un registre del read_registre.jpg)
+![result_d’un_registre_del_read_registre.jpg](result_d’un_registre_del_read_registre.jpg)
 
 Ara veiem com hem fet una consulta específica a l'índex 4, que correspon al id_cliente 5 (Alba).
 A considerar que és índex 4 perquè comença a comptar des de 0.
 
-![result d’un camp d’un registre del read_registre.jpg](result d’un camp d’un registre del read_registre.jpg)
+![result_d’un_camp_d’un_registre_del_read_registre.jpg](result_d’un_camp_d’un_registre_del_read_registre.jpg)
 
 Ara es mostra la informació del telèfon de Alba que correspon a la fila de la base de dades índex 4
 i dins d'aquesta fila a la columna 2, on estan guardats els telèfons. És un Array d'un array.
 
-![Intents mini exercicis LIST.jpg](Intents mini exercicis LIST.jpg)
+![Intents_mini_exercicis_LIST.jpg](Intents_mini_exercicis_LIST.jpg)
 
 Es mostra el resultat de diverses consultes.
 
@@ -112,7 +112,7 @@ Primer farem canvis en els telèfons amb aquest codi com exemple
 
 la base de dades quedarà així després de canviar el telèfon en tres registres
 
-![tlfs abans.jpg](tlfs abans.jpg)
+![tlfs_abans.jpg](tlfs_abans.jpg)
 
 ara farem els canvis en els noms dels tres registres on previament em canviat el telèfon.
 Ho farem amb le següent codi
