@@ -100,7 +100,7 @@ i després l'executa (rr.read_reg()).
 
 després de canviar el codi de main per a que truqui al codi de update
 
-![CridaUpdate.jpg](CridaUpdate.jpg)
+![CridaUpdate.jpg](CridaUpdate.jpg)[Clientes - Hoja 1.csv](send_data_to_db/Clientes%20-%20Hoja%201.csv)
 
 Ara farem canvis en les tres primeres files
 
